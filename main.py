@@ -30,14 +30,14 @@ keyboard.modules.append(split)
 keyboard.keymap = [
 # BASE
 [
-    KC.TAB,  KC.Q,  KC.W, KC.E, KC.R,  KC.T,
-    KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,
-    KC.LCTRL, KC.Z, KC.X,  KC.C,  KC.V, KC.B,
+    KC.TAB,  KC.Q,  KC.W, KC.E, KC.R,  KC.T, KC.Y,  KC.U,  KC.I, KC.O, KC.P,  KC.BSPC,
+    KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,     KC.H, KC.J, KC.K, KC.L, KC.SCOLON,  KC.ENT,
+    KC.LCTRL, KC.Z, KC.X,  KC.C,  KC.V, KC.B,     KC.N, KC.M, KC.COMM,  KC.DOT,  KC.RSHIFT, KC.NO,
                                         KC.GP17, KC.LCMD, KC.SPACE,
 
-KC.Y,  KC.U,  KC.I, KC.O, KC.P,  KC.BSPC,
-    KC.H, KC.J, KC.K, KC.L, KC.SCOLON,  KC.ENT,
-    KC.N, KC.M, KC.COMM,  KC.DOT,  KC.RSHIFT, KC.NO,
+
+
+
                                         KC.SPACE, KC.RCMD, KC.ENT,
 
 ],
