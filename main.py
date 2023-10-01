@@ -32,7 +32,7 @@ keyboard.keymap = [
 [
     KC.TAB,  KC.Q,  KC.W, KC.E, KC.R,  KC.T, KC.Y,  KC.U,  KC.I, KC.O, KC.P,  KC.BSPC,
     KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,     KC.H, KC.J, KC.K, KC.L, KC.SCOLON,  KC.ENT,
-    KC.LCTRL, KC.Z, KC.X,  KC.C,  KC.V, KC.B,     KC.N, KC.M, KC.COMM,  KC.DOT,  KC.RSHIFT, KC.NO,
+    KC.LCTRL, KC.Z, KC.X,  KC.C,  KC.V, KC.B,     KC.N, KC.M, KC.COMM,  KC.DOT,  KC.SLASH, KC.RSHIFT,
                                         KC.NO , KC.LCMD, KC.SPACE,
 
 
