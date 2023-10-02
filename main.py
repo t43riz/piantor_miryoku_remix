@@ -11,7 +11,7 @@ from kmk.modules.power import Power; keyboard.modules.append(Power())
 from kmk.modules.tapdance import TapDance; keyboard.modules.append(TapDance())
 from kmk.extensions.media_keys import MediaKeys; keyboard.extensions.append(MediaKeys())
 from kmk.modules.capsword import CapsWord; keyboard.modules.append(CapsWord())
-
+LAYER_TAP = KC.LT(1, KC.END, prefer_hold=True, tap_interrupted=False, tap_time=250) 
 def rcmd_handler(event, keymap):
     if event.event_type == EventType.KEY_DOWN:
         # If KC.RCMD is held down, activate the "Number Row" layer
