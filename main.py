@@ -11,7 +11,6 @@ from kmk.modules.power import Power; keyboard.modules.append(Power())
 from kmk.modules.tapdance import TapDance; keyboard.modules.append(TapDance())
 from kmk.extensions.media_keys import MediaKeys; keyboard.extensions.append(MediaKeys())
 from kmk.modules.capsword import CapsWord; keyboard.modules.append(CapsWord())
-from kmk.event import EventType
 
 def rcmd_handler(event, keymap):
     if event.event_type == EventType.KEY_DOWN:
