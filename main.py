@@ -47,8 +47,8 @@ keyboard.keymap = [
 
 # TAP
 [
-    KC.TAB, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,     KC.N6, KC.N7, KC.N8, KC.N9, KC.N0, KC.BSPC,
-    KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,                 KC.H, KC.J, KC.K, KC.UP, KC.RIGHT,  KC.QUOTE,
+    KC.TAB, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,     KC.N6, KC.N7, KC.N8, KC.N9, KC.N0, KC.MINUS,
+    KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,                 KC.H, KC.J, KC.K, KC.UP, KC.RIGHT,  KC.BSPC,
     KC.LCMD, KC.Z, KC.X,  KC.C,  KC.V, KC.B,                 KC.N, KC.M, KC.LEFT,  KC.DOWN,  KC.SLASH, KC.ENT,
                     KC.LCMD , KC.SPACE, KC.SPACE,             KC.RCMD, KC.SPACE, KC.ENT,
 ],
