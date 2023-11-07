@@ -55,10 +55,10 @@ keyboard.keymap = [
 ],
 # t2
 [
-    KC.TAB, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,     KC.MB_LMB, KC.MS_UP, KC.MB_RMB, KC.N9, KC.N0, KC.MINUS,
+    KC.ESC, KC.N1, KC.N2, KC.N3, KC.N4, KC.N5,     KC.MB_LMB, KC.MS_UP, KC.MB_RMB, KC.N9, KC.N0, KC.MINUS,
     KC.LSHIFT, KC.A, KC.S, KC.D, KC.F,  KC.G,                 KC.MS_LEFT, KC.MS_DOWN, KC.MS_RIGHT, KC.UP, KC.RIGHT,  KC.BSPC,
     KC.LCMD, KC.Z, KC.X,  KC.C,  KC.V, KC.B,                 KC.N, KC.M, KC.LEFT,  KC.DOWN,  KC.SLASH, KC.ENT,
-                    KC.LCMD , KC.SPACE, KC.NO,             KC.RALT, KC.SPACE, KC.SLASH,
+                    KC.LCMD , KC.SPACE, KC.NO,             KC.RALT, KC.SPACE, KC.NO,
 ],
 
 ]
